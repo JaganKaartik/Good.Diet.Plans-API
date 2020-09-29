@@ -1,0 +1,27 @@
+{
+  "name": "good.diet.plans-api",
+  "version": "1.0.0",
+  "description": "A JSON API built on Express that provides Good Diet Plans",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JaganKaartik/Good.Diet.Plans-API.git"
+  },
+  "keywords": [
+    "JSON API"
+  ],
+  "author": "Jagan Kaartik",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JaganKaartik/Good.Diet.Plans-API/issues"
+  },
+  "homepage": "https://github.com/JaganKaartik/Good.Diet.Plans-API#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "netlify-lambda": "^2.0.1",
+    "serverless-http": "^2.6.0"
+  }
+}
