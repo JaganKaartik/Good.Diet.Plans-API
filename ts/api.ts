@@ -1,6 +1,6 @@
 import express from "express";
 import serverless from "serverless-http";
-import diet from "./diet";
+const diet = require("../src/diet");
 
 const app = express();
 const router = express.Router();
