@@ -1,4 +1,4 @@
-module.exports.diets = [
+exports.diets = [
   {
     Type: "Keto",
     Mode: "Beginners",
