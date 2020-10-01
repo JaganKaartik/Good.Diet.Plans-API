@@ -1,4 +1,14 @@
-exports.diets = [
+interface Diet {
+  Type: string;
+  Mode: string;
+  Diet: {
+    Breakfast: string;
+    Lunch: string;
+    Dinner: string;
+  };
+}
+
+const diets: Diet[] = [
   {
     Type: "Keto",
     Mode: "Beginners",
