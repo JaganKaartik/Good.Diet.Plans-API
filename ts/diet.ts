@@ -40,3 +40,5 @@ const diets: Diet[] = [
     },
   },
 ];
+
+export = diets;
