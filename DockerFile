@@ -8,7 +8,7 @@ RUN npm install
 
 COPY . .
 
-RUN npm run ts-build
+RUN npm run tsbuild
 
 EXPOSE 9000
 
